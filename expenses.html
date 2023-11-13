@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <div class="expense">
+            <h1>EXPENSE TRACKER</h1>
+        </div>
+        
+        <div class="profile" >
+            <img src="https://imgs.search.brave.com/PzngAPChR2G1EghyNpeb6l57-C-wwF0B_VXbrqZORFw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2LzE5LzI2LzQ2/LzM2MF9GXzYxOTI2/NDY4MF94MlBCZEdM/RjU0c0ZlN2tUQnRB/dlpuUHlYZ3ZhUncw/WS5qcGc" alt="p">
+            
+        </div>
+    </div>
+
+    <div class="completeIncome">
+        <div class="income">
+            <h2>Income</h2>
+            <p> Enter your income in rupees</p>
+            <input type="text" id="income" name="Enter" placeholder="Enter income">
+            <button id="income-enter-btn">Enter</button>
+                
+        </div>
+
+        <div class="Showincome">
+            <h2>Your Income</h2>
+        </div>
+
+        
+
+    </div>
+
+    <div class="divNo3">
+        <div class="no3">
+            <div><label for="category-select">Catogery:</label>
+                <select name="select-category" id="category-select">
+                    <option value="food">Food</option>
+                    <option value="rent">Rent</option>
+                    <option value="transport">Transport</option>
+                    <option value="education">Education</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            
+            <div><label for="amount">Amount:</label>
+                <input type="number" id="amount" name="Enter" placeholder="Enter amount">
+            </div>
+            
+           <div> <label for="date">Date:</label>
+            <input type="date" id="date" name="Enter" placeholder="Enter date">
+           </div>
+           
+        </div>
+
+        <button id="add">Add</button>
+       
+
+        
+    </div>
+
+    <div class="expenses-list">
+        <h2>Expenses List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="expnese-table-body">
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total:</td>
+                    <td id="total-amount"></td>
+                    <td></td>
+                    <td>
+                        
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <script src="describe.js"></script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100;
+    width:100;
+}
+
+
+body{
+    background-color: #E6E6FA;
+}
+
+.heading{
+    margin: 20px;
+    display: flex;
+    justify-content:space-between;
+    background-color: #9B9B9D;
+    
+}
+.expense{
+    
+    align-self: center;
+    margin-left: 450px;
+}
+
+.expense h1{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.heading .profile{
+    margin: 10px 5px 10px 450px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+   
+
+   
+}
+.profile img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+
+}
+
+.completeIncome {
+    display: flex;
+    justify-content: space-around;
+}
+
+ .income{
+    height: 200px;
+    width: 400px;
+    
+    box-shadow:dimgrey;
+    background-color: #BBBBBB;
+    border-radius: 20px;
+}
+.income h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.income p{
+    text-align: center;
+}
+
+.income input{
+    margin: 20px 50px 0 120px ;
+}
+
+
+.completeIncome .Showincome{
+    height: 200px;
+    width: 400px;
+    
+    box-shadow:dimgrey;
+    background-color: #BBBBBB;
+    border-radius: 20px;
+}
+
+.Showincome h2{
+    margin: 45px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.income button{
+    margin: 20px 50px 0 175px ;
+    height: 25px;
+    width: 50px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.1 ease-in;
+    
+    
+}
+
+.divNo3 {
+    font-size: 25px;
+    height: 150px;
+    width: 1500px;
+    margin: 25px 25px 0 15px ;
+    background-color: #9B9B9D;
+    
+    
+}
+
+.divNo3 .no3{
+    margin: 5px 25px 0 15px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.divNo3 button{
+    margin: 50px 100px 0 700px ;
+    height: 40px;
+    width: 70px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.1 ease-in;
+}
+
+.expenses-list {
+    margin: 20px ;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 3px solid #000000;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    font-size: 25px;
+    background-color: #BBBBBB;
+    color: black;
+    font-weight: bold;
+  }
+  
+  tfoot td {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .delete-btn {
+    padding: 5px 10px;
+    background-color:whitesmoke;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* margin: 50px 100px 0 500px;
+margin: 50px 500px 0 100px;*/
+
